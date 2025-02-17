@@ -23,7 +23,7 @@ nav{
     width: 20%;
    
 }
-.balance{
+.balance,.amount{
     display: flex;
     align-items: center;
     
@@ -33,7 +33,7 @@ nav{
     height: 7%;
     padding: 8px 0 8px 0;
     font-weight: bold;
-    background-color: rgb(255, 0, 242);
+    background-color: rgb(255, 0, 149);
     border-radius: 5px;
     font-size: 18px;
 }
@@ -41,7 +41,7 @@ nav{
     width: 20%;
     height:20%;
 }
-#img-balance{
+.img-balance{
     width: 30%;
     height: 30%;
 }
@@ -59,15 +59,115 @@ margin-top: 100px;
     color: aliceblue;
     background-color: rgba(240, 248, 255, 0);
     border: 2px solid wheat;
+}
 
+.noakhali{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 2% 12% 0 12%;
+    padding: 5%;
+    border-radius: 10px;
+}
+#img-amount{
+    width: 30%;
+    height: 30%;
+}
+.text-noakhali,.img-noakhali{
+    width: 40%;
+}
+.img-noakhali{
+    width: 30%;
+    height: 20%;
+}
+.amount{
+    background-color: rgba(60, 62, 62, 0.594);
+    color: rgb(255, 255, 255);
+    width: 35%;
+   display: flex;
+   justify-content: center;
+   border-radius: 5px;
+}
+.input{
+    background-color: black;
+    border-color: rgb(255, 0, 149);
+    border-radius: 20px;
+    height: 30px;
+    width: 100%;
+    color: aliceblue;
+}
+.input::placeholder{
+    padding: 10px;
+}
+.donate-now{
+    background-color: rgb(255, 0, 149);
+    border-color: rgb(255, 0, 149);
+    border-radius: 20px;
+    /* height: 30px; */
+    width: 100%;
+    color: aliceblue;
+    padding: 15px;
+    font-size: large;
+    color: black;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 #baa{
     padding: 20px;
     margin: 100px;
     background-color: aqua;
     font-weight: bolder;
     font-size: 40px;
-}
+} */
