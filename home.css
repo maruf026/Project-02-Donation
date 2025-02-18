@@ -120,6 +120,65 @@ margin-top: 100px;
 }
 
 
+@media screen and (max-width: 1024px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .logo {
+        width: 100%;
+        justify-content: center;
+    }
+    .balance {
+        justify-content: center;
+    }
+    .noakhali {
+        flex-direction: column;
+        text-align: center;
+        padding: 10%;
+    }
+    .text-noakhali,
+    .img-noakhali {
+        width: 100%;
+    }
+    .amount {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .noakhali {
+        padding: 5%;
+        margin: 5%;
+    }
+    .main-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-main {
+        width: 80%;
+        margin: auto;
+    }
+    #blog-btn {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .noakhali {
+        padding: 3%;
+    }
+    .amount {
+        width: 80%;
+    }
+    .input,
+    .donate-now {
+        width: 100%;
+    }
+}
 
 
 

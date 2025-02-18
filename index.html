@@ -16,7 +16,7 @@
             </div>
             <div class="balance">
                 <img style="padding-right: 10px;" class="img-balance" src="./images/coin.png" alt="coin">
-                <h3 style="padding-right: 5px;;">5900</h3>
+                <h3 id="account-balance" style="padding-right: 5px;;">5900</h3>
                 <h3>BDT</h3>
             </div>
         </nav>
@@ -34,7 +34,7 @@
             <div class="text-noakhali">
                 <div class="amount">
                     <img style="padding-right: 10px;" src="./images/coin.png" alt="">
-                <h3 style="padding-right: 5px;;">0</h3>
+                <h3 id="total-donation" style="padding-right: 5px;;">0</h3>
                 <h3>BDT</h3>
                 </div>
                 <h2>Donate for Flood at Noakhali, Bangladesh</h2>
@@ -43,8 +43,8 @@
                     supplies and to those affected by this disaster. Every contribution,
                     big or small, makes difference. Please join us in supporting the relief
                     efforts and making a positive impact on the lives of those in need.</p>
-                <input class="input" placeholder="Enter Donation Amount" type="number"><br>
-                <button class="donate-now btn">Donate Now</button> 
+                <input id="donate-input" class="input" placeholder="Enter Donation Amount" type="number"><br>
+                <button id="donate-btn" class="donate-now btn">Donate Now</button> 
             </div>
         </div>
 
@@ -100,7 +100,6 @@
 
 
 
-
 <!-- 
  <button id="baa">ب</button>
 <script>
@@ -109,6 +108,7 @@
         audio.play();
     })
 </script>  -->
-
+<script src="file.js"></script>
+<script src="function.js"></script>
 </body>
 </html>
